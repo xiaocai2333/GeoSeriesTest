@@ -22,7 +22,7 @@ def test_single_col(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data = arctern.GeoSeries(df[0])
     start_time = time.time()
     try:
@@ -32,7 +32,7 @@ def test_single_col(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_double_cols(csv_path, func_name):
@@ -49,7 +49,7 @@ def test_double_cols(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data_col1 = arctern.GeoSeries(df[0])
     arctern_data_col2 = arctern.GeoSeries(df[1])
     start_time = time.time()
@@ -60,7 +60,7 @@ def test_double_cols(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_point(csv_path, func_name):
@@ -76,7 +76,7 @@ def test_point(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_polygon_from_envelope(csv_path, func_name):
@@ -95,12 +95,12 @@ def test_polygon_from_envelope(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_geom_from_geojson(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
-    print("geopandas has no attribute polygon_from_envelope")
+    print("geopandas has no attribute geo_from_geojson")
     arctern_data = pd.Series(df[0])
     start_time = time.time()
     try:
@@ -110,7 +110,7 @@ def test_geom_from_geojson(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 def test_transfrom(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
@@ -124,7 +124,7 @@ def test_transfrom(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data = arctern.GeoSeries(df[0], crs="EPSG:4326")
     start_time = time.time()
     try:
@@ -134,7 +134,7 @@ def test_transfrom(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_buffer(csv_path, func_name):
@@ -149,7 +149,7 @@ def test_buffer(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data = arctern.GeoSeries(df[0])
     start_time = time.time()
     try:
@@ -159,7 +159,7 @@ def test_buffer(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_geometry_type(csv_path, func_name):
@@ -174,7 +174,7 @@ def test_geometry_type(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data = arctern.GeoSeries(df[0])
     start_time = time.time()
     try:
@@ -184,7 +184,7 @@ def test_geometry_type(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_simplify_preserve_topology(csv_path, func_name):
@@ -199,7 +199,7 @@ def test_simplify_preserve_topology(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data = arctern.GeoSeries(df[0])
     start_time = time.time()
     try:
@@ -209,7 +209,7 @@ def test_simplify_preserve_topology(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 def test_curve_to_line(csv_path, func_name):
@@ -224,7 +224,7 @@ def test_curve_to_line(csv_path, func_name):
         pass
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
 
 
 maps = {
@@ -447,7 +447,8 @@ def parser_args():
 
 if __name__ == "__main__":
     args = parser_args()
-    data_num_path = args.data_num[0]
+    data_num = eval(args.data_num[0])
+    data_num_path = "10_" + str(data_num)
     test_func = args.test_func[0]
 
     if not os.path.exists(os.path.join(os.path.join(output_path, "geopandas"), data_num_path)):

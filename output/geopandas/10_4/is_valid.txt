@@ -1,0 +1,1 @@
+geopandas is_valid time is:0.42943882942199707geopandas is_valid time is:0.4592618942260742geopandas is_valid time is:0.44463658332824707geopandas is_valid time is:0.44511914253234863geopandas is_valid time is:0.4519503116607666

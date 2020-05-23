@@ -1,0 +1,1 @@
+geopandas to_wkt() time is:7.915496826171875e-05geopandas to_wkt() time is:0.00011610984802246094geopandas to_wkt() time is:7.891654968261719e-05

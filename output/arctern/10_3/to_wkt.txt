@@ -1,1 +1,0 @@
-arctern to_wkt time is:1.9073486328125e-05arctern to_wkt time is:2.1219253540039062e-05arctern to_wkt time is:2.0265579223632812e-05arctern to_wkt time is:2.0742416381835938e-05

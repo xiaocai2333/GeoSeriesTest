@@ -1,0 +1,1 @@
+geopandas centroid time is:0.0638740062713623geopandas centroid time is:0.06668901443481445geopandas centroid time is:0.07107353210449219geopandas centroid time is:0.0665292739868164geopandas centroid time is:0.06679129600524902
