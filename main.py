@@ -326,49 +326,49 @@ maps = {
     ),
 
     'st_intersection': (
-        'double_col.csv',
+        'double_col_2.csv',
         'intersection',
         2
     ),
 
     'st_intersects': (
-        'double_col.csv',
+        'double_col_1.csv',
         'intersects',
         2
     ),
 
     'st_overlaps': (
-        'double_col.csv',
+        'double_col_1.csv',
         'overlaps',
         2
     ),
 
     'st_contains': (
-        'double_col.csv',
+        'double_col_1.csv',
         'contains',
         2
     ),
 
     'st_equals': (
-        'double_col.csv',
+        'double_col_1.csv',
         'geom_equals',
         2
     ),
 
     'st_crosses': (
-        'double_col.csv',
+        'double_col_1.csv',
         'crosses',
         2
     ),
 
     'st_touches': (
-        'double_col.csv',
+        'double_col_1.csv',
         'touches',
         2
     ),
 
     'st_hausdorffdistance': (
-        'double_col.csv',
+        'double_col_2.csv',
         'hausdorff_distance',
         2
     ),
