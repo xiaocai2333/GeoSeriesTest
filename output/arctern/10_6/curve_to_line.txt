@@ -1,0 +1,1 @@
+arctern curve_to_line time is:84.68753933906555

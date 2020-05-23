@@ -1,0 +1,1 @@
+geopandas intersects time is:67.0109338760376

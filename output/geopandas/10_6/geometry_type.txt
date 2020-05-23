@@ -1,0 +1,1 @@
+geopandas geometry_type time is:0.676171064376831
