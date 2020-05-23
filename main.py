@@ -6,8 +6,8 @@ import pandas as pd
 import time
 import os
 
-data_path = "/home/zc/CLionProjects/GeoSeriesTest/data"
-output_path = "/home/zc/CLionProjects/GeoSeriesTest/output"
+data_path = "/home/zc/GeoSeriesTest/data"
+output_path = "/home/zc/GeoSeriesTest/output"
 
 
 def test_single_col(csv_path, func_name):
@@ -65,21 +65,9 @@ def test_double_cols(csv_path, func_name):
 
 def test_point(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
-    data_shapely_x = df[0].apply(shapely.wkt.loads)
-    data_shapely_y = df[1].apply(shapely.wkt.loads)
-    data_x = gpd.GeoSeries(data_shapely_x)
-    data_y = gpd.GeoSeries(data_shapely_y)
-    start_time = time.time()
-    try:
-        exec("gpd.GeoSeries.%s(data_x, data_y)" % func_name)
-    except AttributeError:
-        print("geopandas has no attribute ", func_name)
-        pass
-    end_time = time.time()
-    with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
-    arctern_data_x = arctern.GeoSeries(df[0])
-    arctern_data_y = arctern.GeoSeries(df[1])
+    print("geopandas has no attribute point")
+    arctern_data_x = pd.Series(df[0])
+    arctern_data_y = pd.Series(df[1])
     start_time = time.time()
     try:
         exec("arctern.GeoSeries.%s(arctern_data_x, arctern_data_y)" % func_name)
@@ -93,28 +81,11 @@ def test_point(csv_path, func_name):
 
 def test_polygon_from_envelope(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
-    data_shapely_min_x = df[0].apply(shapely.wkt.loads)
-    data_shapely_min_y = df[1].apply(shapely.wkt.loads)
-    data_shapely_max_x = df[2].apply(shapely.wkt.loads)
-    data_shapely_max_y = df[3].apply(shapely.wkt.loads)
-    data_min_x = gpd.GeoSeries(data_shapely_min_x)
-    data_min_y = gpd.GeoSeries(data_shapely_min_y)
-    data_max_x = gpd.GeoSeries(data_shapely_max_x)
-    data_max_y = gpd.GeoSeries(data_shapely_max_y)
-    start_time = time.time()
-    try:
-        exec("gpd.GeoSeries.%s(data_x, data_y)" % func_name)
-    except AttributeError:
-        print("geopandas has no attribute ", func_name)
-        pass
-    end_time = time.time()
-    with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
-    from pandas import Series
-    arctern_data_min_x = Series(df[0])
-    arctern_data_min_y = Series(df[1])
-    arctern_data_max_x = Series(df[2])
-    arctern_data_max_y = Series(df[3])
+    print("geopandas has no attribute polygon_from_envelope")
+    arctern_data_min_x = pd.Series(df[0])
+    arctern_data_min_y = pd.Series(df[1])
+    arctern_data_max_x = pd.Series(df[2])
+    arctern_data_max_y = pd.Series(df[3])
     start_time = time.time()
     try:
         exec("arctern.GeoSeries.polygon_from_envelope(arctern_data_min_x, arctern_data_min_y,"
@@ -127,13 +98,27 @@ def test_polygon_from_envelope(csv_path, func_name):
         f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
 
 
+def test_geom_from_geojson(csv_path, func_name):
+    df = pd.read_csv(csv_path, delimiter='|', header=None)
+    print("geopandas has no attribute polygon_from_envelope")
+    arctern_data = pd.Series(df[0])
+    start_time = time.time()
+    try:
+        exec("arctern.GeoSeries.geom_from_geojson(arctern_data)")
+    except AttributeError:
+        print("arctern has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+
 def test_transfrom(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
     data_shapely = df[0].apply(shapely.wkt.loads)
     data = gpd.GeoSeries(data_shapely, crs="EPSG:4326")
     start_time = time.time()
     try:
-        exec("data.to_crs(\"EPSG:3857\").to_wkt()")
+        exec("data.to_crs(\"EPSG:3857\")")
     except AttributeError:
         print("geopandas has no attribute ", func_name)
         pass
@@ -158,7 +143,7 @@ def test_buffer(csv_path, func_name):
     data = gpd.GeoSeries(data_shapely)
     start_time = time.time()
     try:
-        exec("data.buffer(1.2).to_wkt()")
+        exec("data.buffer(1.2)")
     except AttributeError:
         print("geopandas has no attribute ", func_name)
         pass
@@ -169,6 +154,71 @@ def test_buffer(csv_path, func_name):
     start_time = time.time()
     try:
         exec("arctern_data.buffer(1.2).to_wkt()")
+    except AttributeError:
+        print("arctern has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+
+
+def test_geometry_type(csv_path, func_name):
+    df = pd.read_csv(csv_path, delimiter='|', header=None)
+    data_shapely = df[0].apply(shapely.wkt.loads)
+    data = gpd.GeoSeries(data_shapely)
+    start_time = time.time()
+    try:
+        exec("data.geom_type")
+    except AttributeError:
+        print("geopandas has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+    arctern_data = arctern.GeoSeries(df[0])
+    start_time = time.time()
+    try:
+        exec("arctern_data.%s" % func_name)
+    except AttributeError:
+        print("arctern has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+
+
+def test_simplify_preserve_topology(csv_path, func_name):
+    df = pd.read_csv(csv_path, delimiter='|', header=None)
+    data_shapely = df[0].apply(shapely.wkt.loads)
+    data = gpd.GeoSeries(data_shapely)
+    start_time = time.time()
+    try:
+        exec("data.simplify(1, preserve_topology=True)")
+    except AttributeError:
+        print("geopandas has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time))
+    arctern_data = arctern.GeoSeries(df[0])
+    start_time = time.time()
+    try:
+        exec("arctern_data.simplify_preserve_to_pology(1)")
+    except AttributeError:
+        print("arctern has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time))
+
+
+def test_curve_to_line(csv_path, func_name):
+    df = pd.read_csv(csv_path, delimiter='|', header=None)
+    arctern_data = arctern.GeoSeries(df[0])
+    print("geopandas has no attribute curve_to_line")
+    start_time = time.time()
+    try:
+        exec("arctern_data.%s().to_wkt()" % func_name)
     except AttributeError:
         print("arctern has no attribute ", func_name)
         pass
@@ -253,20 +303,20 @@ maps = {
 
     'st_convexhull': (
         'single_col.csv',
-        'convexhull',
+        'convex_hull',
         1
     ),
 
     'st_geometry_type': (
         'single_col.csv',
         'geometry_type',
-        1
+        7
     ),
 
     'st_simplify_preserve_topology': (
         'single_col.csv',
-        'simplify_preserve_to_pology',
-        1
+        'simplify_preserve_topology',
+        8
     ),
 
     'st_make_valid': (
@@ -338,7 +388,7 @@ maps = {
     'st_curvetoline': (
         'st_curvetoline.csv',
         'curve_to_line',
-        1
+        9
     ),
 
     'st_point': (
@@ -356,7 +406,7 @@ maps = {
     'st_geomfromgeojson': (
         'st_geomfromgeojson.csv',
         'geom_from_geojson',
-        1
+        10
     ),
 
 }
@@ -373,12 +423,19 @@ def exec_fun(test_name):
     elif case_num == 3:
         test_point(csv_file, func_name)
     elif case_num == 4:
-        test_polygon_from_envelope(csv_file, file_name)
+        test_polygon_from_envelope(csv_file, func_name)
     elif case_num == 5:
-        test_transfrom(csv_file, file_name)
+        test_transfrom(csv_file, func_name)
     elif case_num == 6:
-        test_buffer(csv_file, file_name)
-
+        test_buffer(csv_file, func_name)
+    elif case_num == 7:
+        test_geometry_type(csv_file, func_name)
+    elif case_num == 8:
+        test_simplify_preserve_topology(csv_file, func_name)
+    elif case_num == 9:
+        test_curve_to_line(csv_file, func_name)
+    elif case_num == 10:
+        test_geom_from_geojson(csv_file, func_name)
 
 def parser_args():
     parse = argparse.ArgumentParser()

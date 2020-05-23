@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zc/CLionProjects/GeoSeriesTest/main.cpp" "/home/zc/CLionProjects/GeoSeriesTest/cmake-build-debug/CMakeFiles/GeoSeriesTest.dir/main.cpp.o"
+  "/home/zc/GeoSeriesTest/main.cpp" "/home/zc/GeoSeriesTest/cmake-build-debug/CMakeFiles/GeoSeriesTest.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
