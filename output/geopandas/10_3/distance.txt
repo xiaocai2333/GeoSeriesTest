@@ -1,0 +1,1 @@
+geopandas distance time is:0.00754857063293457geopandas distance time is:0.0075876712799072266geopandas distance time is:0.0075702667236328125geopandas distance time is:0.007816314697265625geopandas distance time is:0.007817506790161133geopandas distance time is:0.007865190505981445geopandas distance time is:0.007719516754150391geopandas distance time is:0.0077364444732666016
