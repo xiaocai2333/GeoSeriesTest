@@ -1,4 +1,4 @@
-for ((data_num = 3; data_num < 7; data_num++))
+for ((data_num = 7; data_num < 9; data_num++))
 do
 	echo $data_num
 	for ((i = 0; i < 5; i++))
@@ -10,7 +10,6 @@ do
 		python3 main.py -f st_union_aggr -n $data_num
 		python3 main.py -f st_issimple -n $data_num
 		python3 main.py -f st_transform -n $data_num
-		python3 main.py -f st_buffer -n $data_num
 		python3 main.py -f st_length -n $data_num
 		python3 main.py -f st_isvalid -n $data_num
 		python3 main.py -f st_npoints -n $data_num
@@ -33,5 +32,14 @@ do
 		python3 main.py -f st_point -n $data_num
 		python3 main.py -f st_polygon_from_envelope -n $data_num
 		python3 main.py -f st_geomfromgeojson -n $data_num
+	done
+done
+
+for ((data_num = 7; data_num < 9; data_num++))
+do
+	echo $data_num
+	for ((i = 0; i < 5; i++))
+	do
+		python3 main.py -f st_buffer -n $data_num
 	done
 done
