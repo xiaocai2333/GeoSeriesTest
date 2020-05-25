@@ -1,1 +1,5 @@
-geopandas simplify_preserve_topology time is:6.50049901008606geopandas simplify_preserve_topology time is:6.322925567626953geopandas simplify_preserve_topology time is:6.546159744262695
+geopandas simplify_preserve_topology time is:6.599888801574707
+geopandas simplify_preserve_topology time is:6.295776844024658
+geopandas simplify_preserve_topology time is:6.1496360301971436
+geopandas simplify_preserve_topology time is:6.263410568237305
+geopandas simplify_preserve_topology time is:6.227840900421143

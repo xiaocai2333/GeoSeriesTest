@@ -1,1 +1,5 @@
-geopandas intersects time is:4.9007792472839355geopandas intersects time is:4.92679238319397geopandas intersects time is:4.943972587585449
+geopandas intersects time is:6.988756418228149
+geopandas intersects time is:6.783090829849243
+geopandas intersects time is:6.761943340301514
+geopandas intersects time is:6.783389568328857
+geopandas intersects time is:6.785363674163818

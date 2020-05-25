@@ -1,0 +1,5 @@
+geopandas union_aggr time is:5.2928924560546875e-05
+geopandas union_aggr time is:5.245208740234375e-05
+geopandas union_aggr time is:5.340576171875e-05
+geopandas union_aggr time is:5.269050598144531e-05
+geopandas union_aggr time is:6.103515625e-05

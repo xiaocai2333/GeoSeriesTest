@@ -1,1 +1,5 @@
-geopandas crosses time is:6.370452165603638geopandas crosses time is:6.2250494956970215geopandas crosses time is:6.411479711532593
+geopandas crosses time is:7.12849235534668
+geopandas crosses time is:6.842296361923218
+geopandas crosses time is:6.804533958435059
+geopandas crosses time is:6.754465103149414
+geopandas crosses time is:6.781127691268921

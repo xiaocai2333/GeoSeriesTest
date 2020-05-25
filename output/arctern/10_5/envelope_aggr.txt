@@ -1,1 +1,5 @@
-arctern envelope_aggr time is:3.24249267578125e-05arctern envelope_aggr time is:3.24249267578125e-05arctern envelope_aggr time is:3.314018249511719e-05
+arctern envelope_aggr time is:0.025536537170410156
+arctern envelope_aggr time is:0.02517986297607422
+arctern envelope_aggr time is:0.026227951049804688
+arctern envelope_aggr time is:0.026728391647338867
+arctern envelope_aggr time is:0.025532245635986328

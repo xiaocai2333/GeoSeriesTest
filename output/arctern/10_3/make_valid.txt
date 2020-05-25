@@ -1,1 +1,5 @@
-arctern make_valid time is:2.3365020751953125e-05arctern make_valid time is:2.0265579223632812e-05arctern make_valid time is:1.9788742065429688e-05arctern make_valid time is:2.09808349609375e-05arctern make_valid time is:2.0742416381835938e-05
+arctern make_valid time is:0.004889249801635742
+arctern make_valid time is:0.004857778549194336
+arctern make_valid time is:0.004863739013671875
+arctern make_valid time is:0.004793882369995117
+arctern make_valid time is:0.0047609806060791016

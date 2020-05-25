@@ -1,0 +1,5 @@
+geopandas envelope time is:90.8488552570343
+geopandas envelope time is:95.0747172832489
+geopandas envelope time is:89.24658203125
+geopandas envelope time is:85.59982800483704
+geopandas envelope time is:88.13826203346252

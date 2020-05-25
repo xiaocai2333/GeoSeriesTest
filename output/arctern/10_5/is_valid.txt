@@ -1,1 +1,5 @@
-arctern is_valid time is:0.4257621765136719arctern is_valid time is:0.41930532455444336arctern is_valid time is:0.41782164573669434
+arctern is_valid time is:0.42072129249572754
+arctern is_valid time is:0.41774773597717285
+arctern is_valid time is:0.4268069267272949
+arctern is_valid time is:0.40805649757385254
+arctern is_valid time is:0.416623592376709

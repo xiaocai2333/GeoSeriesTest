@@ -1,1 +1,5 @@
-arctern curve_to_line time is:8.518764019012451arctern curve_to_line time is:8.62345552444458
+arctern curve_to_line time is:8.710143566131592
+arctern curve_to_line time is:8.312543869018555
+arctern curve_to_line time is:8.449274778366089
+arctern curve_to_line time is:8.300678730010986
+arctern curve_to_line time is:8.288050174713135

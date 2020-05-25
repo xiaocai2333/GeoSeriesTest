@@ -1,1 +1,5 @@
-arctern npoints time is:0.35994768142700195
+arctern npoints time is:0.35681676864624023
+arctern npoints time is:0.3532133102416992
+arctern npoints time is:0.3538239002227783
+arctern npoints time is:0.35570478439331055
+arctern npoints time is:0.35652899742126465

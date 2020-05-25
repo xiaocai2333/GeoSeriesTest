@@ -1,1 +1,5 @@
-geopandas is_simple time is:0.042693376541137695geopandas is_simple time is:0.04004335403442383geopandas is_simple time is:0.03985190391540527geopandas is_simple time is:0.0397489070892334geopandas is_simple time is:0.040724754333496094
+geopandas is_simple time is:0.041144609451293945
+geopandas is_simple time is:0.040000200271606445
+geopandas is_simple time is:0.03998279571533203
+geopandas is_simple time is:0.04039263725280762
+geopandas is_simple time is:0.039717674255371094

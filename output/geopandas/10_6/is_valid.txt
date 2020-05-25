@@ -1,1 +1,5 @@
-geopandas is_valid time is:43.464338064193726
+geopandas is_valid time is:43.115482330322266
+geopandas is_valid time is:42.87644720077515
+geopandas is_valid time is:42.90361213684082
+geopandas is_valid time is:43.61136269569397
+geopandas is_valid time is:42.91002106666565

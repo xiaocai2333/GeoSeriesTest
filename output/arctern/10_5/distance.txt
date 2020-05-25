@@ -1,1 +1,5 @@
-arctern distance time is:0.14415335655212402arctern distance time is:0.14980530738830566
+arctern distance time is:0.14922690391540527
+arctern distance time is:0.13741040229797363
+arctern distance time is:0.13861608505249023
+arctern distance time is:0.13991665840148926
+arctern distance time is:0.1377570629119873

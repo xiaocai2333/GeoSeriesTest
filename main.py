@@ -12,21 +12,36 @@ output_path = "/home/zc/GeoSeriesTest/output"
 
 def test_single_col(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
-    data_shapely = df[0].apply(shapely.wkt.loads)
-    data = gpd.GeoSeries(data_shapely)
-    start_time = time.time()
-    try:
-        exec("data.%s" % func_name)
-    except AttributeError:
-        print("geopandas has no attribute ", func_name)
-        pass
-    end_time = time.time()
-    with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
+    # data_shapely = df[0].apply(shapely.wkt.loads)
+    # data = gpd.GeoSeries(data_shapely)
+    # start_time = time.time()
+    # try:
+    #     exec("data.%s" % func_name)
+    # except AttributeError:
+    #     print("geopandas has no attribute ", func_name)
+    #     pass
+    # end_time = time.time()
+    # with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+    #     f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data = arctern.GeoSeries(df[0])
     start_time = time.time()
     try:
         exec("arctern_data.%s" % func_name)
+    except AttributeError:
+        print("arctern has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
+
+
+def test_single_col_2(csv_path, func_name):
+    df = pd.read_csv(csv_path, delimiter='|', header=None)
+    print("geopandas has no attribute ", func_name)
+    arctern_data = arctern.GeoSeries(df[0])
+    start_time = time.time()
+    try:
+        exec("arctern_data.%s()" % func_name)
     except AttributeError:
         print("arctern has no attribute ", func_name)
         pass
@@ -111,6 +126,7 @@ def test_geom_from_geojson(csv_path, func_name):
     end_time = time.time()
     with open(output_path + "/arctern/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
         f.writelines("arctern %s time is:" % func_name + str(end_time - start_time) + "\n")
+
 
 def test_transfrom(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
@@ -244,7 +260,7 @@ maps = {
     'st_envelope_aggr': (
         'single_polygon.csv',
         'envelope_aggr',
-        1
+        11
     ),
 
     'st_envelope': (
@@ -256,7 +272,7 @@ maps = {
     'st_union_aggr': (
         'single_polygon.csv',
         'union_aggr',
-        1
+        11
     ),
 
     'st_issimple': (
@@ -322,7 +338,7 @@ maps = {
     'st_make_valid': (
         'single_col.csv',
         'make_valid',
-        1
+        11
     ),
 
     'st_intersection': (
@@ -436,6 +452,9 @@ def exec_fun(test_name):
         test_curve_to_line(csv_file, func_name)
     elif case_num == 10:
         test_geom_from_geojson(csv_file, func_name)
+    elif case_num == 11:
+        test_single_col_2(csv_file, func_name)
+
 
 def parser_args():
     parse = argparse.ArgumentParser()

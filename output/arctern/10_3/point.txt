@@ -1,1 +1,5 @@
-arctern point time is:0.0010652542114257812arctern point time is:0.000985860824584961arctern point time is:0.000980377197265625arctern point time is:0.0010175704956054688arctern point time is:0.00098419189453125
+arctern point time is:0.00102996826171875
+arctern point time is:0.0011925697326660156
+arctern point time is:0.0009808540344238281
+arctern point time is:0.0010502338409423828
+arctern point time is:0.0010101795196533203

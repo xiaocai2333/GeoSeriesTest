@@ -1,2 +1,5 @@
-arctern to_crs time is:2.428122043609619
-arctern to_crs time is:2.417989730834961
+arctern to_crs time is:2.4488143920898438
+arctern to_crs time is:2.456071615219116
+arctern to_crs time is:2.467548131942749
+arctern to_crs time is:2.4556822776794434
+arctern to_crs time is:2.4490153789520264

@@ -1,1 +1,5 @@
-arctern polygon_from_envelope time is:0.8432109355926514arctern polygon_from_envelope time is:0.8555903434753418
+arctern polygon_from_envelope time is:0.8638596534729004
+arctern polygon_from_envelope time is:0.833747148513794
+arctern polygon_from_envelope time is:0.8274474143981934
+arctern polygon_from_envelope time is:0.8230855464935303
+arctern polygon_from_envelope time is:0.825355052947998

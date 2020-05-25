@@ -1,1 +1,5 @@
-arctern contains time is:4.444275617599487
+arctern contains time is:4.423137187957764
+arctern contains time is:4.398252725601196
+arctern contains time is:4.408118724822998
+arctern contains time is:4.422857999801636
+arctern contains time is:4.395312786102295

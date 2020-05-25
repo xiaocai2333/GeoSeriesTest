@@ -1,1 +1,5 @@
-geopandas geom_equals time is:0.018349885940551758geopandas geom_equals time is:0.01771378517150879geopandas geom_equals time is:0.017683029174804688geopandas geom_equals time is:0.017604827880859375geopandas geom_equals time is:0.01761627197265625
+geopandas geom_equals time is:0.00452423095703125
+geopandas geom_equals time is:0.004534721374511719
+geopandas geom_equals time is:0.004274845123291016
+geopandas geom_equals time is:0.004113912582397461
+geopandas geom_equals time is:0.004309177398681641

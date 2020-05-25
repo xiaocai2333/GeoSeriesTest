@@ -1,1 +1,5 @@
-arctern area time is:0.08157563209533691arctern area time is:0.07903766632080078arctern area time is:0.0871424674987793arctern area time is:0.08337116241455078arctern area time is:0.09124064445495605
+arctern area time is:0.12754559516906738
+arctern area time is:0.10163187980651855
+arctern area time is:0.1038045883178711
+arctern area time is:0.10880064964294434
+arctern area time is:0.10679030418395996

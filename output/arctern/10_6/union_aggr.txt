@@ -1,0 +1,5 @@
+arctern union_aggr time is:50.5156831741333
+arctern union_aggr time is:50.742146730422974
+arctern union_aggr time is:50.50554394721985
+arctern union_aggr time is:50.84096074104309
+arctern union_aggr time is:49.990748167037964

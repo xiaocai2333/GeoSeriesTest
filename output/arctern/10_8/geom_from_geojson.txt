@@ -1,0 +1,5 @@
+arctern geom_from_geojson time is:318.87611985206604
+arctern geom_from_geojson time is:314.8868000507355
+arctern geom_from_geojson time is:314.95691180229187
+arctern geom_from_geojson time is:325.4095673561096
+arctern geom_from_geojson time is:320.3593440055847

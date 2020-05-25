@@ -1,0 +1,5 @@
+arctern simplify_preserve_topology time is:606.3785638809204
+arctern simplify_preserve_topology time is:597.14430809021
+arctern simplify_preserve_topology time is:595.3038306236267
+arctern simplify_preserve_topology time is:594.3970077037811
+arctern simplify_preserve_topology time is:609.4404973983765

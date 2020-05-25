@@ -1,1 +1,5 @@
-geopandas length time is:1.2838172912597656
+geopandas length time is:1.2950389385223389
+geopandas length time is:1.3242571353912354
+geopandas length time is:1.3187777996063232
+geopandas length time is:1.3877410888671875
+geopandas length time is:1.269505500793457

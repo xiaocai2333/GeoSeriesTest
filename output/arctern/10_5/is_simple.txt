@@ -1,1 +1,5 @@
-arctern is_simple time is:0.32759952545166016arctern is_simple time is:0.3412811756134033arctern is_simple time is:0.32559728622436523
+arctern is_simple time is:0.33097028732299805
+arctern is_simple time is:0.34453535079956055
+arctern is_simple time is:0.330352783203125
+arctern is_simple time is:0.3315424919128418
+arctern is_simple time is:0.3245828151702881

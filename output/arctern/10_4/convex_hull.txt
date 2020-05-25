@@ -1,1 +1,5 @@
-arctern convex_hull time is:0.03096175193786621arctern convex_hull time is:0.033316850662231445arctern convex_hull time is:0.031177520751953125arctern convex_hull time is:0.03127932548522949arctern convex_hull time is:0.03100728988647461
+arctern convex_hull time is:0.030481338500976562
+arctern convex_hull time is:0.032660722732543945
+arctern convex_hull time is:0.0303800106048584
+arctern convex_hull time is:0.03278207778930664
+arctern convex_hull time is:0.03190732002258301

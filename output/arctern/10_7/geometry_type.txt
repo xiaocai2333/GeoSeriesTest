@@ -1,0 +1,5 @@
+arctern geometry_type time is:3.8146073818206787
+arctern geometry_type time is:3.802489757537842
+arctern geometry_type time is:3.8197362422943115
+arctern geometry_type time is:3.816847801208496
+arctern geometry_type time is:3.8548343181610107

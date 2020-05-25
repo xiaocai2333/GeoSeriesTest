@@ -1,1 +1,5 @@
-arctern within time is:0.004731416702270508arctern within time is:0.0048334598541259766arctern within time is:0.004793882369995117arctern within time is:0.004743814468383789arctern within time is:0.0048410892486572266
+arctern within time is:0.00503087043762207
+arctern within time is:0.004683494567871094
+arctern within time is:0.0047702789306640625
+arctern within time is:0.00479888916015625
+arctern within time is:0.004880428314208984

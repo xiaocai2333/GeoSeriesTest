@@ -1,0 +1,5 @@
+arctern envelope time is:0.5290877819061279
+arctern envelope time is:0.5354249477386475
+arctern envelope time is:0.5392756462097168
+arctern envelope time is:0.5366325378417969
+arctern envelope time is:0.5413539409637451

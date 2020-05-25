@@ -1,0 +1,5 @@
+arctern hausdorff_distance time is:29.682387590408325
+arctern hausdorff_distance time is:29.73173236846924
+arctern hausdorff_distance time is:29.943506479263306
+arctern hausdorff_distance time is:29.624595880508423
+arctern hausdorff_distance time is:29.806609630584717

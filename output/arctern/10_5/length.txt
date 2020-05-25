@@ -1,1 +1,5 @@
-arctern length time is:0.10975170135498047arctern length time is:0.10855913162231445arctern length time is:0.10109066963195801
+arctern length time is:0.11098241806030273
+arctern length time is:0.10186338424682617
+arctern length time is:0.10563778877258301
+arctern length time is:0.10508966445922852
+arctern length time is:0.10443615913391113

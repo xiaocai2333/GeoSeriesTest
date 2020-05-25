@@ -1,1 +1,5 @@
-arctern touches time is:0.8685908317565918arctern touches time is:0.8442907333374023
+arctern touches time is:1.1099450588226318
+arctern touches time is:1.1067688465118408
+arctern touches time is:1.1067216396331787
+arctern touches time is:1.1055827140808105
+arctern touches time is:1.1166658401489258

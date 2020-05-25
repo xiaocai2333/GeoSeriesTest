@@ -1,1 +1,5 @@
-arctern geom_equals time is:0.6631345748901367arctern geom_equals time is:0.6602282524108887arctern geom_equals time is:0.6486432552337646
+arctern geom_equals time is:0.7173681259155273
+arctern geom_equals time is:0.6901977062225342
+arctern geom_equals time is:0.689223051071167
+arctern geom_equals time is:0.6919584274291992
+arctern geom_equals time is:0.6886806488037109

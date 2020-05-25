@@ -1,1 +1,5 @@
-geopandas geometry_type time is:0.0007991790771484375geopandas geometry_type time is:0.000766754150390625geopandas geometry_type time is:0.0007917881011962891geopandas geometry_type time is:0.0007641315460205078geopandas geometry_type time is:0.0008041858673095703
+geopandas geometry_type time is:0.0009043216705322266
+geopandas geometry_type time is:0.0007865428924560547
+geopandas geometry_type time is:0.0007255077362060547
+geopandas geometry_type time is:0.0007402896881103516
+geopandas geometry_type time is:0.0007894039154052734

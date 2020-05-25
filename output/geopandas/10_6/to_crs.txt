@@ -1,2 +1,5 @@
-geopandas to_crs time is:26.28371000289917
-geopandas to_crs time is:25.53668189048767
+geopandas to_crs time is:24.72539234161377
+geopandas to_crs time is:25.582560300827026
+geopandas to_crs time is:25.739596366882324
+geopandas to_crs time is:24.786741018295288
+geopandas to_crs time is:24.933451414108276

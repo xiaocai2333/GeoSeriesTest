@@ -1,0 +1,4 @@
+geopandas touches time is:659.7138772010803
+geopandas touches time is:669.4698960781097
+geopandas touches time is:672.2016978263855
+geopandas touches time is:669.8527638912201

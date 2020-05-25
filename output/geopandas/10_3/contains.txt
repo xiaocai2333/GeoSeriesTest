@@ -1,1 +1,5 @@
-geopandas contains time is:0.019627094268798828geopandas contains time is:0.019347190856933594geopandas contains time is:0.019532203674316406geopandas contains time is:0.019108295440673828geopandas contains time is:0.019217729568481445
+geopandas contains time is:0.022600889205932617
+geopandas contains time is:0.02263665199279785
+geopandas contains time is:0.021519899368286133
+geopandas contains time is:0.021498918533325195
+geopandas contains time is:0.021759510040283203

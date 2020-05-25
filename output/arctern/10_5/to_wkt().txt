@@ -1,1 +1,5 @@
-arctern to_wkt() time is:0.3225595951080322arctern to_wkt() time is:0.32248926162719727arctern to_wkt() time is:0.3233678340911865
+arctern to_wkt() time is:0.31534361839294434
+arctern to_wkt() time is:0.32196998596191406
+arctern to_wkt() time is:0.31270289421081543
+arctern to_wkt() time is:0.3123648166656494
+arctern to_wkt() time is:0.31144261360168457

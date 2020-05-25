@@ -1,1 +1,5 @@
-arctern overlaps time is:0.8597044944763184arctern overlaps time is:0.8735244274139404arctern overlaps time is:0.8689284324645996
+arctern overlaps time is:1.135857105255127
+arctern overlaps time is:1.1072349548339844
+arctern overlaps time is:1.1232023239135742
+arctern overlaps time is:1.1090917587280273
+arctern overlaps time is:1.1048977375030518

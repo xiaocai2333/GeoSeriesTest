@@ -1,0 +1,5 @@
+arctern is_valid time is:39.63296890258789
+arctern is_valid time is:40.130603551864624
+arctern is_valid time is:39.47262501716614
+arctern is_valid time is:39.55072045326233
+arctern is_valid time is:40.66910457611084

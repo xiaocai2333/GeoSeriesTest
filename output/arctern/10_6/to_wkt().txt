@@ -1,0 +1,5 @@
+arctern to_wkt() time is:3.0967772006988525
+arctern to_wkt() time is:3.1274194717407227
+arctern to_wkt() time is:3.126856565475464
+arctern to_wkt() time is:3.148261308670044
+arctern to_wkt() time is:3.1031341552734375

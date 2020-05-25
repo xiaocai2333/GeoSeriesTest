@@ -1,1 +1,5 @@
-arctern crosses time is:0.8855884075164795arctern crosses time is:0.8554620742797852arctern crosses time is:0.8765840530395508
+arctern crosses time is:1.157918930053711
+arctern crosses time is:1.1157350540161133
+arctern crosses time is:1.111769199371338
+arctern crosses time is:1.1079916954040527
+arctern crosses time is:1.1031897068023682

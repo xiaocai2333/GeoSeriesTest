@@ -1,1 +1,5 @@
-arctern intersection time is:0.018129587173461914arctern intersection time is:0.018170595169067383arctern intersection time is:0.018204212188720703arctern intersection time is:0.017862319946289062arctern intersection time is:0.018207550048828125
+arctern intersection time is:0.02128434181213379
+arctern intersection time is:0.018455982208251953
+arctern intersection time is:0.01812577247619629
+arctern intersection time is:0.018376588821411133
+arctern intersection time is:0.018594026565551758

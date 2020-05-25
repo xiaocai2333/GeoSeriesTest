@@ -1,1 +1,5 @@
-arctern geometry_type time is:0.0006268024444580078arctern geometry_type time is:0.0005674362182617188arctern geometry_type time is:0.0005261898040771484arctern geometry_type time is:0.0005362033843994141arctern geometry_type time is:0.0005388259887695312
+arctern geometry_type time is:0.0005686283111572266
+arctern geometry_type time is:0.0005838871002197266
+arctern geometry_type time is:0.0005276203155517578
+arctern geometry_type time is:0.0005211830139160156
+arctern geometry_type time is:0.0005404949188232422

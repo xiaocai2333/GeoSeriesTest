@@ -1,1 +1,5 @@
-geopandas area time is:0.0022554397583007812geopandas area time is:0.0016820430755615234geopandas area time is:0.0019550323486328125geopandas area time is:0.0016849040985107422geopandas area time is:0.0016283988952636719
+geopandas area time is:0.001577138900756836
+geopandas area time is:0.0016117095947265625
+geopandas area time is:0.0015463829040527344
+geopandas area time is:0.0015926361083984375
+geopandas area time is:0.001552581787109375

@@ -1,1 +1,5 @@
-geopandas buffer time is:1.813157320022583geopandas buffer time is:1.9646270275115967geopandas buffer time is:1.910970687866211geopandas buffer time is:1.934089183807373geopandas buffer time is:1.9239258766174316
+geopandas buffer time is:1.8311114311218262
+geopandas buffer time is:1.8193440437316895
+geopandas buffer time is:1.8562126159667969
+geopandas buffer time is:1.9088764190673828
+geopandas buffer time is:1.9306654930114746

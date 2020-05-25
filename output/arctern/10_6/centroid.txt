@@ -1,1 +1,5 @@
-arctern centroid time is:2.4507217407226562
+arctern centroid time is:2.30977201461792
+arctern centroid time is:2.2964046001434326
+arctern centroid time is:2.3793933391571045
+arctern centroid time is:2.330101251602173
+arctern centroid time is:2.307236909866333

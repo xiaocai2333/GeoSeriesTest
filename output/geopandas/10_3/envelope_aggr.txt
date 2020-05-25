@@ -1,1 +1,5 @@
-geopandas envelope_aggr time is:4.601478576660156e-05geopandas envelope_aggr time is:3.886222839355469e-05geopandas envelope_aggr time is:4.410743713378906e-05geopandas envelope_aggr time is:4.7206878662109375e-05geopandas envelope_aggr time is:3.981590270996094e-05
+geopandas envelope_aggr time is:4.291534423828125e-05
+geopandas envelope_aggr time is:3.600120544433594e-05
+geopandas envelope_aggr time is:4.6253204345703125e-05
+geopandas envelope_aggr time is:3.647804260253906e-05
+geopandas envelope_aggr time is:4.00543212890625e-05
