@@ -1,5 +1,0 @@
-geopandas npoints time is:5.1975250244140625e-05
-geopandas npoints time is:5.555152893066406e-05
-geopandas npoints time is:5.626678466796875e-05
-geopandas npoints time is:6.103515625e-05
-geopandas npoints time is:5.173683166503906e-05

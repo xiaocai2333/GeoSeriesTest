@@ -1,5 +1,0 @@
-geopandas make_valid time is:5.936622619628906e-05
-geopandas make_valid time is:5.698204040527344e-05
-geopandas make_valid time is:5.5789947509765625e-05
-geopandas make_valid time is:5.555152893066406e-05
-geopandas make_valid time is:5.412101745605469e-05

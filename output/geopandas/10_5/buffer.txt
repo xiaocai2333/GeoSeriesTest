@@ -3,3 +3,4 @@ geopandas buffer time is:19.077414751052856
 geopandas buffer time is:18.648217916488647
 geopandas buffer time is:18.126765966415405
 geopandas buffer time is:18.247873306274414
+geopandas buffer time is:18.47924780845642

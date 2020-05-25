@@ -1,5 +1,0 @@
-geopandas hausdorff_distance time is:6.389617919921875e-05
-geopandas hausdorff_distance time is:6.318092346191406e-05
-geopandas hausdorff_distance time is:5.888938903808594e-05
-geopandas hausdorff_distance time is:6.628036499023438e-05
-geopandas hausdorff_distance time is:6.198883056640625e-05

@@ -12,17 +12,17 @@ output_path = "/home/zc/GeoSeriesTest/output"
 
 def test_single_col(csv_path, func_name):
     df = pd.read_csv(csv_path, delimiter='|', header=None)
-    # data_shapely = df[0].apply(shapely.wkt.loads)
-    # data = gpd.GeoSeries(data_shapely)
-    # start_time = time.time()
-    # try:
-    #     exec("data.%s" % func_name)
-    # except AttributeError:
-    #     print("geopandas has no attribute ", func_name)
-    #     pass
-    # end_time = time.time()
-    # with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
-    #     f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
+    data_shapely = df[0].apply(shapely.wkt.loads)
+    data = gpd.GeoSeries(data_shapely)
+    start_time = time.time()
+    try:
+        exec("data.%s" % func_name)
+    except AttributeError:
+        print("geopandas has no attribute ", func_name)
+        pass
+    end_time = time.time()
+    with open(output_path + "/geopandas/" + data_num_path + "/" + func_name + ".txt", 'a+') as f:
+        f.writelines("geopandas %s time is:" % func_name + str(end_time - start_time) + "\n")
     arctern_data = arctern.GeoSeries(df[0])
     start_time = time.time()
     try:
