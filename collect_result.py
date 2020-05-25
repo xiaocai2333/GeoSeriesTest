@@ -18,11 +18,13 @@ def collect_time():
     data_num_list = os.listdir("output/arctern")
     func_list = os.listdir("output/arctern/10_3/")
     data_num_time = {}
-    for data_num in data_num_list:
+    for data_num in os.listdir("output/arctern"):
+    # for data_num in data_num_list:
         test_case = {}
         for case in ["arctern", "geopandas"]:
             func_time = {}
-            for func_file in func_list:
+            for func_file in os.listdir(os.path.join("output/" + case, data_num)):
+            # for func_file in func_list:
                 func_time[func_file.replace(".txt", "")] = calculate_time(
                     "output/" + case + "/" + data_num + "/" + func_file)
             test_case[case] = func_time

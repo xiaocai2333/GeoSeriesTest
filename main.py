@@ -159,7 +159,7 @@ def test_buffer(csv_path, func_name):
     data = gpd.GeoSeries(data_shapely)
     start_time = time.time()
     try:
-        exec("data.buffer(1.2)")
+        exec("data.buffer(1.2, resolution=30)")
     except AttributeError:
         print("geopandas has no attribute ", func_name)
         pass
